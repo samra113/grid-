@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+    <h1>container</h1>
+    <div class="row">
+    <div class="col-sm-3 col-md-6 col-lg-4" style="background-color:yellow;">
+    <p>span 1</p>
+    </div>
+    <div class="col-sm-9 col-md-6 col-lg-8" style="background-color:rgb(218, 113, 207);">
+    <p>span 2</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!------------------- nested--------- -->
+    
+    <div class="container text-center">
+        <h1>NESTED</h1>
+        <div class="row">
+        <div class="col-sm-3" style="background-color: rgb(238, 144, 159);">
+        Level 1: .col-sm-3
+        </div>
+        <div class="col-sm-9">
+        <div class="row">
+        <div class="col-sm-6" style="background-color:rgb(232, 144, 232) ;">
+        Level 2: .col-sm-6
+        </div>
+        <div class=" col-sm-6" style="background-color: rgb(157, 157, 211) ;">
+        Level 2: .col-sm-6
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+      <!-- ------------- -->
+      <div class="container-fluid">
+        <h1>GRID</h1>
+        <div class="row">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: rgb(228, 236, 165);">span1</div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2" style="background-color: rgb(243, 175, 175);">span2</div>
+        <div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-2" style="background-color: rgb(157, 222, 234);">span3</div>
+        <div class="col-12 col-sm-4 col-md-6 col-lg-3 col-xl-2" style="background-color: rgb(214, 110, 184);">span4</div>
+        <div class="col-12 col-sm-4 col-md-6 col-xl-2" style="background-color: rgb(183, 119, 228);">span5</div>
+        <div class="col-12 col-lg-6 col-xl-2" style="background-color: rgb(88, 107, 205);">span6</div>
+        <div class="col-12" style="background-color: rgb(198, 205, 67);">span7</div>
+        <div class="col-12" style="background-color: rgb(136, 54, 54);">span8</div>
+        <div class="col" style="background-color: rgb(217, 148, 148);">span9</div>
+        <div class="col" style="background-color: rgb(151, 163, 240);">span10</div>
+        <div class="col" style="background-color: rgb(226, 117, 210);">span11</div>
+        <div class="col" style="background-color: rgb(231, 153, 76);">span12</div>
+
+      </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
